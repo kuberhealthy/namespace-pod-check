@@ -43,7 +43,7 @@ spec:
       serviceAccountName: namespace-pod-check
       containers:
         - name: namespace-pod-check
-          image: ghcr.io/kuberhealthy/namespace-pod-check:v0.1.0
+          image: docker.io/kuberhealthy/namespace-pod-check:v0.1.1
           imagePullPolicy: IfNotPresent
           resources:
             requests:
